@@ -1,0 +1,11 @@
+Here's how you can use PyInstaller to create an executable from your Python script:
+
+1. Install PyInstaller: You can install PyInstaller using pip by running pip install pyinstaller in your terminal or command prompt.
+
+2. Create the executable: Run the following command in your terminal or command prompt, replacing myscript.py with the name of your Python script:
+
+    pyinstaller --onefile myscript.py
+
+    This will create a single executable file named myscript (or myscript.exe on Windows) in the dist directory.
+
+3. Distribute the executable: You can now distribute the myscript file to others, and they can run it by double-clicking it or running it from the terminal or command prompt.
